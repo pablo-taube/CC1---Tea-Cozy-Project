@@ -16,6 +16,7 @@ Table of Contents
 body {
     background: #F3EDEB;
     font-family: 'PT Sans', cursive;
+    min-width: 900px;
 }
 
 
@@ -34,6 +35,7 @@ header {
     border-bottom: 1px solid seashell;
     font-family: "PT Sans";
     font-size: 1.7em;
+    z-index: 999;
 }
 
 header img {
@@ -92,7 +94,7 @@ header a:hover {
 }
 
 
-/* #3 Tea of The Month Section */
+/* 3. Tea of The Month Section */
 
 .tea-month-section {
     background-color: #A98D70;
@@ -133,4 +135,85 @@ header a:hover {
 .teas-gallery-item img {
     width: 20em;
     height: 15em;
+}
+
+
+/* 4. Location Section */
+
+.location-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-section img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.location {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.location-addresses {
+    width: 20%;
+    min-width: 200px;
+    height: 40%;
+    margin: 2em;
+    padding-top: 0.5em;
+    background: #A98D70;
+    text-align: center;
+    color: #F3EDEB;
+    opacity: 1;
+}
+
+.location-addresses h4 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.location-addresses h5 {
+    padding-top: 2em;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+
+/* 5. Footer Section */
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background: #485251;
+    color: #F3EDEB;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    padding-top: 0.5em;
+}
+
+footer h5 {
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding-top: 0.5em;
+}
+
+footer a {
+    color: #F3EDEB;
 }
