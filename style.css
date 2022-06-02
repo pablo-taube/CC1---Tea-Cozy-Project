@@ -1,0 +1,136 @@
+/*
+Table of Contents
+
+#0 General 
+#1 Header Section
+#2 Main Page Section
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=PT+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F3EDEB;
+    font-family: 'PT Sans', cursive;
+}
+
+
+/* #1 - Header Section */
+
+header {
+    width: 100%;
+    height: 4.31em;
+    background: #485251;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+    border-bottom: 1px solid seashell;
+    font-family: "PT Sans";
+    font-size: 1.7em;
+}
+
+header img {
+    width: 15%;
+    height: auto;
+}
+
+header a {
+    color: #F3EDEB;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-decoration-color: #A98D70;
+    transition-duration: 3s;
+}
+
+
+/* #2 - Main Page Section*/
+
+.main-page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.main-title {
+    position: absolute;
+    z-index: 999;
+    bottom: 22%;
+    line-height: 1em;
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+    color: #A98D70;
+    text-align: center;
+}
+
+.main-slogan {
+    line-height: 1em;
+    font-size: 0.3em;
+    font-family: 'PT Sans', cursive;
+    padding-top: 1em;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/* #3 Tea of The Month Section */
+
+.tea-month-section {
+    background-color: #A98D70;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #F3EDEB;
+    padding-top: 3em;
+}
+
+.tea-month-section h2 {
+    font-size: 3em;
+}
+
+.tea-month-section p {
+    font-size: 1.2em;
+}
+
+.teas-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.teas-gallery h4 {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+.teas-gallery-item {
+    margin: 1em;
+    text-align: center;
+    color: #F3EDEB;
+}
+
+.teas-gallery-item img {
+    width: 20em;
+    height: 15em;
+}
